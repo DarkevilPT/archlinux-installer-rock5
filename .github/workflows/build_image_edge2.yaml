@@ -39,7 +39,7 @@ jobs:
              match=BOARD=Edge2 \
              link=https://github.com/kwankiu/archlinux-installer-rock5/wiki \
              duration=250 \
-             desc="Community-built Arch Linux Installer for ARM (Aarch64) with main focus on the Radxa Rock 5 and RK3588"
+             desc="Community-built Arch Linux Installer for ARM (Aarch64)"
         continue-on-error: true
 
       - uses: ncipollo/release-action@v1
